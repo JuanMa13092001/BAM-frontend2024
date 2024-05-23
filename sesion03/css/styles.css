@@ -1,0 +1,34 @@
+.contenedor{
+    height: 350px;
+    width: 70%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.hijo{
+    width: 250px;
+    margin: 25px;
+    
+}
+
+.hijo1{
+    height: 250px;
+    background-color: red;
+    order: 2;
+}
+
+.hijo2{
+    height: 150px;
+    background-color: green;
+    order: 3;
+}
+
+.hijo3{
+    height: 200px;
+    background-color: blue;
+    order: 1;
+}

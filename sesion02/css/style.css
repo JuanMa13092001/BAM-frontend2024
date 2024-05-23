@@ -1,0 +1,19 @@
+
+#logo {
+    height: 80px;
+    width: 90px
+}
+
+header {
+    display: block;
+   background-color: #040324;
+}
+
+.btn-nav{
+    background-color: #040324;
+    color: #fff;
+    border: none;
+}
+.btn-nav-search{
+    background-color: #F19B56;
+}
