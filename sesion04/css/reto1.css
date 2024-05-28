@@ -1,0 +1,19 @@
+.container{
+    height: 700px;
+    width: 1200px;
+    background-color: #deb887;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    height: 300px;
+    width: 75%;
+    margin: 25px;
+    background-color: green;
+
+}
+
+h1{
+    margin: 50px;
+}
