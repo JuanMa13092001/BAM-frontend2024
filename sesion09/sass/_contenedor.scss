@@ -1,0 +1,22 @@
+@import "variables";
+
+.contenedor {
+    height: 50px;
+    width: 100%;
+    background: #707070;
+    display: flex;
+
+    ul{
+        list-style: none;
+        display: flex;
+
+        li{
+            margin-left: 10px;
+            a{
+                @include font-f2;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+  }

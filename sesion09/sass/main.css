@@ -1,0 +1,34 @@
+.contenedor {
+  height: 50px;
+  width: 100%;
+  background: #707070;
+  display: flex;
+}
+.contenedor ul {
+  list-style: none;
+  display: flex;
+}
+.contenedor ul li {
+  margin-left: 10px;
+}
+.contenedor ul li a {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  color: red;
+}
+
+.titulo {
+  font-family: "Courier New", Courier, monospace;
+  color: #24a0ed;
+}
+
+.boton {
+  background: red;
+  font-family: "Courier New", Courier, monospace;
+  height: 6rem;
+  color: maroon;
+}/*# sourceMappingURL=main.css.map */

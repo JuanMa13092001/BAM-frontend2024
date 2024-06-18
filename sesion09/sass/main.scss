@@ -1,0 +1,29 @@
+@use 'sass:math';
+
+@import "variables";
+@import "mixins";
+@import "contenedor";
+
+
+h1{
+    color: $primaryColor;
+}
+
+.titulo{
+    @include font-f2;
+    color: #24a0ed;
+}
+
+
+
+// funcion que transforme px a rem 1rem = 16px
+@function px2rem($px){
+    @return math.div($px, 16) * 1rem;
+}
+
+.boton{
+    background: $primaryColor;
+    @include font-f2;
+    height: px2rem(96);
+    color: darken($primaryColor, 25%);
+}
